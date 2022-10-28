@@ -3,5 +3,5 @@
 cd ./
 git add .
 read -p "Enter commit message: " message
-git commit -m "$message" & git push
+git commit -m "$message" && git push
 exit(1)
